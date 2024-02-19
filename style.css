@@ -1,8 +1,8 @@
 body{
-background-image: linear-gradient(green, white);
+background-color: black;
 }
 div{
-    background-image: linear-gradient(green, white);
+    background-image: linear-gradient(black,white, black );
 }
 footer{
     background-color: black;
