@@ -1,8 +1,8 @@
 body{
-background-color: black;
+background-color: gainsboro;
 }
 div{
-    background-image: linear-gradient(black,white, black );
+    background-image: linear-gradient(gainsboro,white);
 }
 footer{
     background-color: black;
