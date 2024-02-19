@@ -1,6 +1,9 @@
 body{
-    
+
 }
 div{
     background-image: linear-gradient(green, white);
+}
+footer{
+    background-color: black;
 }
