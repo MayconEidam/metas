@@ -1,9 +1,12 @@
 body{
-background-image: linear-gradient(gainsboro, white) ;
+ 
 }
 div{
-    background-image: linear-gradient(gainsboro,white);
+    
 }
 footer{
-    background-color: black;
+
+}
+html{
+    background-image: linear-gradient(gainsboro, white);
 }
