@@ -1,5 +1,6 @@
 body{
- background-image: linear-gradient(white, rgb(201, 201, 201));
+ background-image: linear-gradient(white, #c9c9c9);
+    padding-bottom: 30%;
 }
 div{
     
