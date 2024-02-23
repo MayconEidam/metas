@@ -1,5 +1,5 @@
 body{
- background-image: linear-gradient(white, #c9c9c9);
+ background-image: linear-gradient(white, hwb(0 49% 51%));
     padding-bottom: 30%;
 }
 div{
