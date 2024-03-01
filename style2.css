@@ -66,6 +66,7 @@ margin: 0 auto;
     .botoes{
       display: flex;    
 }
+}
 
 .botao:first-child{
    border-radius: 40px 40px 0 0;
@@ -78,6 +79,5 @@ margin: 0 auto;
 
 .botao:last-child{
     border-radius: 0 40px 0 0;
-}
 }
 }
