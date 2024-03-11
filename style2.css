@@ -6,7 +6,7 @@ body {
 }
 
 :root {
-    --cor-de-fundo:#000000;
+    --cor-de-fundo: #000000;
     --verde: #6FFF57;
     --branco: #FFFFFF;
     --botao-ativo: #3A375E;
@@ -14,33 +14,32 @@ body {
     --texto-fundo: #3a375e4d;
 }
 
-h1{
+h1 {
     color: rgb(255, 255, 255);
 }
 
-.conteudo-principal{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-max-width: 1200xp;
-width: 100%;
-margin: 0 auto;
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-.titulo-principal{
+.titulo-principal {
     text-align: left;
     width: 100%;
     font-size: 32px;
 }
 
-.titulo-principal span{
+.titulo-principal span {
     color: var(--branco);
 }
 
-.botao{
-    ￼Cursos no alura
-    ￼criar projetos em JS
+.botao {
+
     font-family: "Crakra Petch", sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
@@ -57,32 +56,33 @@ margin: 0 auto;
     border-top: none;
 }
 
-.botoes{
-    display:block;
+.botoes {
+    display: block;
 }
 
-.ativo{
+.ativo {
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--branco);
 }
 
-@media screen and (min-whidth: 768px){
-    .botoes{
-      display: flex;    
-}
-
-
-.botao:first-child{
-   border-radius: 40px 40px 0 0;
-}
-
-}
-@media screen and(min-whidth:768px){
-    .botoes{
+@media screen and (min-whidth: 768px) {
+    .botoes {
         display: flex;
+    }
+
+
+    .botao:first-child {
+        border-radius: 40px 40px 0 0;
+    }
+
 }
 
-.botao:last-child{
-    border-radius: 0 40px 0 0;
-}
+@media screen and(min-whidth:768px) {
+    .botoes {
+        display: flex;
+    }
+
+    .botao:last-child {
+        border-radius: 0 40px 0 0;
+    }
 }
