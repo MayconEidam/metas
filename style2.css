@@ -1,12 +1,9 @@
-body {
-    background-color: var(--cor-de-fundo);
-    color: var(--branco);
-    font-family: 'Chakra Petch', sans-serif;
-
+h1 {
+    color: rgb(255, 255, 255);
 }
 
 :root {
-    --cor-de-fundo: #000000;
+    --cor-de-fundo: #1E1E1E;
     --verde: #6FFF57;
     --branco: #FFFFFF;
     --botao-ativo: #3A375E;
@@ -14,8 +11,10 @@ body {
     --texto-fundo: #3a375e4d;
 }
 
-h1 {
-    color: rgb(255, 255, 255);
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+   
 }
 
 .conteudo-principal {
@@ -32,14 +31,14 @@ h1 {
     text-align: left;
     width: 100%;
     font-size: 32px;
+
 }
 
 .titulo-principal span {
-    color: var(--branco);
+    color: var(--verde);
 }
 
-.botao {
-
+.botao{
     font-family: "Crakra Petch", sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
@@ -49,40 +48,48 @@ h1 {
     font-size: 18px;
     align-items: center;
     width: 100%;
-
+   
     border-bottom: 4px solid var(--botao-ativo);
     border-left: 2px solid var(--botao-ativo);
     border-right: 2px solid var(--botao-ativo);
     border-top: none;
 }
 
-.botoes {
+.botoes{
     display: block;
 }
 
-.ativo {
+.botao.ativo{
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--branco);
+    border-bottom: 4px solid var(--verde);
 }
 
-@media screen and (min-whidth: 768px) {
+.abas-textos{
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+
+@media screen and (min-width: 768px) {
     .botoes {
         display: flex;
     }
-
 
     .botao:first-child {
         border-radius: 40px 40px 0 0;
     }
-
 }
 
-@media screen and(min-whidth:768px) {
-    .botoes {
-        display: flex;
-    }
+    @media screen and (min-width: 768px) {
+        .botoes {
+            display: flex;
+        }
 
-    .botao:last-child {
-        border-radius: 0 40px 0 0;
+        .botao:first-child {
+            border-radius: 40px 0 0 0;
+        }
+
+        .botao:last-child {
+            border-radius: 0 40px 0 0;
+        }
     }
-}
