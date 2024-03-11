@@ -1,5 +1,8 @@
-h1{
-    color: green;
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'Chakra Petch', sans-serif;
+
 }
 
 :root {
@@ -10,10 +13,9 @@ h1{
     --botao-inativo: #3a375e80;
     --texto-fundo: #3a375e4d;
 }
-body {
-    background-color: var(--cor-de-fundo);
-    color: var(--branco);
-    font-family: 'Chakra Petch', sans-serif;
+
+h1{
+    color: green;
 }
 
 .conteudo-principal{
